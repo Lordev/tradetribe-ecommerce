@@ -4,16 +4,21 @@
   "description": "A custom WordPress theme",
   "main": "index.js",
   "scripts": {
-    "dev": "webpack --mode development --watch",
-    "build": "webpack --mode production"
+    "dev": "docker compose --profile dev up",
+    "prod": "docker compose --profile prod up",
+    "browsersync": "browser-sync start --proxy http://localhost --port 3000 --files './src/themes/**/*' --reload-delay 500",
+    "webpack:dev": "webpack --mode development --watch",
+    "webpack:prod": "webpack --mode production"
   },
   "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
+    "css-minimizer-webpack-plugin": "^7.0.2",
     "mdbootstrap": "^4.20.0"
-  },
+
+    },
   "devDependencies": {
     "@babel/core": "^7.26.0",
     "@babel/preset-env": "^7.26.0",
@@ -21,6 +26,7 @@
     "babel-loader": "^9.2.1",
     "browser-sync": "^3.0.3",
     "browser-sync-webpack-plugin": "^2.3.0",
+    "clean-webpack-plugin": "^4.0.0",
     "concurrently": "^9.1.0",
     "css-loader": "^7.1.2",
     "cssnano": "^7.0.6",
