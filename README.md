@@ -89,6 +89,10 @@ See `package.json` for more options.
 
 ## � Showcase
 
-[![Frontend Demo](https://img.youtube.com/vi/FRONTEND_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=FRONTEND_VIDEO_ID)
-[![Backend Demo](https://img.youtube.com/vi/BACKEND_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=BACKEND_VIDEO_ID)
-[![Extra Demo](https://img.youtube.com/vi/EXTRA_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=EXTRA_VIDEO_ID)
+## Landing page
+https://github.com/user-attachments/assets/d4c8d20a-40a8-42c8-a3c1-998b95ddc6ee
+
+## Shopping page
+https://github.com/user-attachments/assets/c4cb04f0-b9a9-40d1-9d19-0ac26f68064a
+
+
